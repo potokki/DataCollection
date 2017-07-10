@@ -1,5 +1,6 @@
 using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using GDAssist;
 
 namespace GDAssistTest
 {
@@ -7,8 +8,18 @@ namespace GDAssistTest
     public class UT
     {
         [TestMethod]
-        public void TestMethod1()
+        public void SSDTest()
         {
+            Gates gd = NewMethod;
+            gd.SSS(1);
+        }
+
+        private static Gates NewMethod
+        {
+            get
+            {
+                return new Gates();
+            }
         }
     }
 }
