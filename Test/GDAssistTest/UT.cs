@@ -1,15 +1,15 @@
 using System;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
 using GDAssist;
+using Xunit;
 
 namespace GDAssistTest
 {
-    [TestClass]
     public class UT
     {
-        [TestMethod]
+        [Fact]
         public void SSDTest()
         {
+            //PrivateObject po = new PrivateObject(Gates);
             Gates gd = NewMethod;
             gd.SSS(18);
             gd.SSS(2);
