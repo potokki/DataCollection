@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26430.15
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Commands", "Commands\Commands.csproj", "{A9CA53CC-1CA3-493F-ACE4-D2FD272A9318}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Commands", "Commands\Commands.csproj", "{A9CA53CC-1CA3-493F-ACE4-D2FD272A9318}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GDAssist", "GDAssist\GDAssist.csproj", "{6273C5E8-8455-422C-8E48-0E1D78D17CD4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GDAssist", "GDAssist\GDAssist.csproj", "{6273C5E8-8455-422C-8E48-0E1D78D17CD4}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{1205E90C-B672-48E1-896A-BDCA2445FA18}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GDAssistTest", "Test\GDAssistTest\GDAssistTest.csproj", "{B3B412B6-E672-4431-BEB7-5CABF079493F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GDAssistTest", "Test\GDAssistTest\GDAssistTest.csproj", "{B3B412B6-E672-4431-BEB7-5CABF079493F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

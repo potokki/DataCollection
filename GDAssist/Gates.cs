@@ -18,5 +18,9 @@ namespace GDAssist
                 throw new NullReferenceException();
             }
         }
+
+        private void TTT(int j)
+        {
+        }
     }
 }
